@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #242424;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+.home, .englishSection, .turkishSection{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.buttons{
+  margin-top: 1rem;
+}
+
+
+.mx-4{
+  margin: 0 1rem 0 1rem;
+}
+
+.my-4{
+  margin: 8px 0 8px 0;
+}
+
+button{
+  border: 2px solid beige;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 2rem 8px 2rem;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: beige;
+  color: #000;
+}
+
+.notFound{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.quote-box{
+  font-size: 24px;
+}
+
+.getQuoteBtn{
+  margin-top: 10%;
+}
+
+.img-box img{
+  margin-top: 8%;
+  width: 300px;
+  filter: invert();
+  user-select: none;
+}
