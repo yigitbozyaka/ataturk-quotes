@@ -9,7 +9,7 @@ function English() {
   //this place is for display a quote first visit on page
   useEffect(() => {
     axios
-      .get("https://ataturk.now.sh/en")
+      .get("https://ataturk.now.sh/tr")
       .then((response) => {
         setQuote(response.data.quote);
       })
