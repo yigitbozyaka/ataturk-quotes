@@ -13,5 +13,5 @@
  
  # Demo
  
- https://ataturk-quotes.vercel.app/
+ https://ataturk-quotes-leyi.vercel.app/
  
